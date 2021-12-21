@@ -6,9 +6,10 @@
 
 int main(){
   struct fraccion fra1 = {
-    .numerador = 3,
-    .denominador = 8,
+    .numerador = 8,
+    .denominador = 12,
   };
+  
   int opcion;
   opcion = menu();
   switch(opcion){
