@@ -13,7 +13,7 @@ LIBS := libs/
 
 # Archivos a compilar
 C_FILES := main.c
-C_FILES += desicion.c
+C_FILES += primos.c
 
 # Utiliza TABS en las reglas
 all:
@@ -26,3 +26,4 @@ run:
 
 clean:
 	rm -rf main
+

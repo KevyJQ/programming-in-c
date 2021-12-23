@@ -1,9 +1,9 @@
 #include <stdio.h>
 
-#include "desicion.h"
+#include "primos.h"
 
-int desicion(int numero){
-  if(numero == 0 || numero == 1 || numero == 4){
+int primo(int numero){
+  if(numero == 0 || numero == 1){
     return 0;
   }
   for(int i = 2; i < numero ; i++){
@@ -13,4 +13,3 @@ int desicion(int numero){
   }
   return 1;
 }
-
