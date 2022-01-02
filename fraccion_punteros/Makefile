@@ -16,6 +16,7 @@ LIBS := libs/
 # Archivos a compilar
 C_FILES := main.c
 C_FILES += fraccion.c
+C_FILES += menu_deci.c
 
 
 # Utiliza TABS en las reglas

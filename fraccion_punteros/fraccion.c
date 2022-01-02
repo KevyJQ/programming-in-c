@@ -46,9 +46,6 @@ struct fraccion fraccion_resta(struct fraccion *f1,struct fraccion *f2){
   //Este forma solo funciona siempre y cuando sea la misma fraccion la que se esta restando
   res.numerador = f1->numerador - f2->numerador;
   res.denominador = f2->denominador;
-  if(res.numerador == 0 || res.denominador == 0){
-    printf("El operacion dara 0 o no se podra realizar..\n");
-  }
   return res;
 }
 
